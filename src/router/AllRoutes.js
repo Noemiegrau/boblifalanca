@@ -13,7 +13,10 @@ const AllRoutes = () => {
     <>
       <ScrollTopBehaviour />
       <Routes>
-        <Route path="/" element={<Preview />} />
+        {/* <Route exact
+                path={ `${ process.env.PUBLIC_URL + "/" }` }
+                element={ Preview } /> */}
+        <Route path="/hello" element={<Preview />} />
         {/* <Route path="/home-light-animation" element={<HomeLightAnimation />} />
         <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
         <Route path="/home-typer-creative" element={<HomeTyperCreative />} />
