@@ -8,6 +8,8 @@ import MainPage from "../views/all-home-version/MainPage";
 import { Routes, Route, HashRouter } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
+//test
+
 const AllRoutes = () => {
   return (
     <>
