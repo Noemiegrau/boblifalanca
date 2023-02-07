@@ -79,7 +79,7 @@ const SliderParallaxTyper = () => {
                   data-aos-delay="150"
                 >
                   
-                  Photographe et vidéaste parisien, je suis spécialisé dans l'événementiel, 
+                  Photographe  et vidéaste parisien, je suis spécialisé dans l'événementiel, 
                   ainsi que les publicités pour les marques. Je couvres vos événements, anniversaires, 
                   mariages et soirées pour immortaliser vos moments les plus chers. 
                   Mon travail permet aux clients d'augmenter leurs ventes et de construire une meilleure marque avec un retour sur investissement positif.
