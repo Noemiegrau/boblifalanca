@@ -16,13 +16,14 @@ const AllRoutes = () => {
         {/* <Route exact
                 path={ `${ process.env.PUBLIC_URL + "/" }` }
                 element={ Preview } /> */}
-        <Route path="/hello" element={<Preview />} />
+            <Route path="*" element={<MainPage />} />
+        {/* <Route path="/" element={<Preview />} /> */}
         {/* <Route path="/home-light-animation" element={<HomeLightAnimation />} />
         <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
         <Route path="/home-typer-creative" element={<HomeTyperCreative />} />
         <Route path="/home-parallax-typer" element={<MainPage />} /> */}
         {/* <Route path="/Home" element={<MainPage />} /> */}
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </>
   );
