@@ -19,7 +19,7 @@ const AllRoutes = () => {
         <Route path="/home-typer-creative" element={<HomeTyperCreative />} />
         <Route path="/home-parallax-typer" element={<MainPage />} /> */}
         <Route path="/" element={<MainPage />} />
-        <Route path="*" element={<NotFound />} />
+        {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
     </>
   );
