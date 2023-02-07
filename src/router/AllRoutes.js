@@ -1,5 +1,5 @@
 import React from "react";
-// import Preview from "../views/Preview";
+import Preview from "../views/Preview";
 // import HomeLightAnimation from "../views/all-home-version/HomeLightAnimation";
 // import HomeTyperCreative from "../views/all-home-version/HomeTyperCreative";
 // import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
