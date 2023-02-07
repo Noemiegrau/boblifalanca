@@ -4,7 +4,7 @@ import React from "react";
 // import HomeTyperCreative from "../views/all-home-version/HomeTyperCreative";
 // import HomeDarkAnimation from "../views/all-home-version/HomeDarkAnimation";
 import MainPage from "../views/all-home-version/MainPage";
-import NotFound from "../views/NotFound";
+// import NotFound from "../views/NotFound";
 import { Routes, Route } from "react-router-dom";
 import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 
