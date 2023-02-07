@@ -16,7 +16,7 @@ const AllRoutes = () => {
         {/* <Route exact
                 path={ `${ process.env.PUBLIC_URL + "/" }` }
                 element={ Preview } /> */}
-            <Route path="*" element={<MainPage />} />
+            <Route path="/hello" element={<MainPage />} />
         {/* <Route path="/" element={<Preview />} /> */}
         {/* <Route path="/home-light-animation" element={<HomeLightAnimation />} />
         <Route path="/home-dark-animation" element={<HomeDarkAnimation />} />
