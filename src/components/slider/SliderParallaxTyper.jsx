@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import ReactTyped from "react-typed";
 import SocialTwo from "../SocialTwo";
 
-const image1 = "img/slider/10.jpg";
+const image1 = "img/about/backgroundBlue.jpeg";
 
 const SliderParallaxTyper = () => {
   return (
@@ -15,7 +15,7 @@ const SliderParallaxTyper = () => {
               className="image"
               style={{
                 backgroundImage: `url(${
-                  process.env.PUBLIC_URL + "img/slider/10.jpg"
+                  process.env.PUBLIC_URL + "img/about/backgroundBlue.jpeg"
                 })`,
               }}
             ></div>
