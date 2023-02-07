@@ -11,8 +11,9 @@ import ScrollTopBehaviour from "../components/ScrollTopBehaviour";
 const AllRoutes = () => {
   return (
     <>
+          <ScrollTopBehaviour />
     <HashRouter>
-      <ScrollTopBehaviour />
+
       <Routes>
         {/* <Route exact
                 path={ `${ process.env.PUBLIC_URL + "/" }` }
