@@ -50,20 +50,20 @@ const Header = () => {
               >
                 <li className="current">
                   <a href="#home">
-                    <span className="first">Home</span>
-                    <span className="second">Home</span>
+                    <span className="first">Accueil</span>
+                    <span className="second">Accueil</span>
                   </a>
                 </li>
                 <li>
                   <a href="#about">
-                    <span className="first">About</span>
-                    <span className="second">About</span>
+                    <span className="first">A propos</span>
+                    <span className="second">A propos</span>
                   </a>
                 </li>
                 <li>
                   <a href="#service">
-                    <span className="first">Service</span>
-                    <span className="second">Service</span>
+                    <span className="first">Mes prestations</span>
+                    <span className="second">Mes prestations</span>
                   </a>
                 </li>
                 <li>
@@ -74,8 +74,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#news">
-                    <span className="first">News</span>
-                    <span className="second">News</span>
+                    <span className="first">Réseau Sociaux</span>
+                    <span className="second">Réseau Sociaux</span>
                   </a>
                 </li>
                 <li>
@@ -84,14 +84,14 @@ const Header = () => {
                     <span className="second">Contact</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
                     <span className="wrapper">
                       <span className="first">Buy Now</span>
                       <span className="second">Buy Now</span>
                     </span>
                   </a>
-                </li>
+                </li> */}
               </Scrollspy>
             </div>
           </div>
