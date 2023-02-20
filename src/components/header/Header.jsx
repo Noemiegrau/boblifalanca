@@ -62,8 +62,8 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#service">
-                    <span className="first">Mes prestations</span>
-                    <span className="second">Mes prestations</span>
+                    <span className="first">Prestations</span>
+                    <span className="second">Prestations</span>
                   </a>
                 </li>
                 <li>
