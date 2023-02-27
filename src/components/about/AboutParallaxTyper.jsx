@@ -25,7 +25,7 @@ const AboutParallax = () => {
           data-aos-delay="50"
         >
           <div className="short">
-            <h3> Je suis Bob Lifalanca</h3>
+            <h3> Je suis Bob Lifalanca </h3>
             <h5>
               <span className="theme-color">Personalité publique</span>, <span className="theme-color">photographe </span> 
               &amp; <span className="theme-color">vidéographe</span> basé à <span className="theme-color">Paris</span>.
