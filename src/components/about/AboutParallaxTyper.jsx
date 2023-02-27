@@ -13,7 +13,7 @@ const AboutParallax = () => {
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/about/9.jpg"
+                process.env.PUBLIC_URL + "img/about/avatarMen.png"
               })`,
             }}
           ></div>
@@ -25,19 +25,19 @@ const AboutParallax = () => {
           data-aos-delay="50"
         >
           <div className="short">
-            <h3> I'm Jess Jonassen</h3>
+            <h3> Je suis Bob Lifalanca</h3>
             <h5>
-              A Lead <span className="theme-color">UX &amp; UI</span> designer
-              based in <span className="theme-color">Canada</span>
+              <span className="theme-color">Personalité publique</span>, <span className="theme-color">photographe </span> 
+              &amp; <span className="theme-color">vidéographe</span> basé à <span className="theme-color">Paris</span>.
             </h5>
-            <p>
+            {/* <p>
               I design and develop services for customers specializing creating
               stylish, modern websites, web services and online stores. My
               passion is to design digital user experiences through meaningful
               interactions. Check out my Portfolio
-            </p>
+            </p> */}
           </div>
-          <div className="extra">
+          {/* <div className="extra">
             <h3 className="title">Personal Info</h3>
             <div className="list">
               <ul>
@@ -83,18 +83,19 @@ const AboutParallax = () => {
                 </li>
               </ul>
             </div>
-            <div className="beny_tm_button color-outline">
+             <div className="beny_tm_button color-outline">
               <a href="img/about/cv.webp" download>
                 <span className="wrapper">
                   <span className="first">Download CV</span>
                   <span className="second">Download CV</span>
                 </span>
               </a>
-            </div>
-          </div>
+            </div> 
+          </div> */}
+
         </div>
       </div>
-      <Skills />
+      {/* <Skills /> */}
     </>
   );
 };

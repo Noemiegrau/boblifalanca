@@ -36,13 +36,13 @@ const ServiceAnimation = () => {
             <div className="service_title">
               <h3>Motion Art Graphy</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
-          {/* Start Modal Motion Graphy */}
-          <Modal
+          {/* Start Modal Motion Graphy + ADD PRICES ?????????*/}
+          {/* <Modal
             isOpen={isOpen}
             onRequestClose={toggleModalOne}
             contentLabel="My dialog"
@@ -53,10 +53,10 @@ const ServiceAnimation = () => {
             <div className="beny_tm_modalbox_service">
               <button className="close-modal" onClick={toggleModalOne}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
-              </button>
+              </button> */}
               {/* End close icon */}
 
-              <div className="box_inner">
+              {/* <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
                     <div className="image">
@@ -123,11 +123,11 @@ const ServiceAnimation = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End box inner */}
-            </div>
+            {/* </div> */}
             {/* End modal box news */}
-          </Modal>
+          {/* </Modal> */}
           {/* End Modal Motion Graphy */}
         </li>
         <li>
@@ -142,13 +142,13 @@ const ServiceAnimation = () => {
             <div className="service_title">
               <h3>Branding &amp; Design</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Branding & Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen2}
             onRequestClose={toggleModalTwo}
             contentLabel="My dialog"
@@ -159,10 +159,10 @@ const ServiceAnimation = () => {
             <div className="beny_tm_modalbox_service">
               <button className="close-modal" onClick={toggleModalTwo}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
-              </button>
+              </button> */}
               {/* End close icon */}
 
-              <div className="box_inner">
+              {/* <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
                     <div className="image">
@@ -229,11 +229,11 @@ const ServiceAnimation = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End box inner */}
-            </div>
+            {/* </div> */}
             {/* End modal box news */}
-          </Modal>
+          {/* </Modal> */}
           {/* End Modal Branding & Design */}
         </li>
 
@@ -249,13 +249,13 @@ const ServiceAnimation = () => {
             <div className="service_title">
               <h3>Mobile App Design</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Mobile App Design */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen3}
             onRequestClose={toggleModalThree}
             contentLabel="My dialog"
@@ -266,10 +266,10 @@ const ServiceAnimation = () => {
             <div className="beny_tm_modalbox_service">
               <button className="close-modal" onClick={toggleModalThree}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
-              </button>
+              </button> */}
               {/* End close icon */}
 
-              <div className="box_inner">
+              {/* <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
                     <div className="image">
@@ -336,11 +336,11 @@ const ServiceAnimation = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End box inner */}
-            </div>
+            {/* </div> */}
             {/* End modal box news */}
-          </Modal>
+          {/* </Modal> */}
           {/* End Modal Mobile App Design*/}
         </li>
 
@@ -356,13 +356,13 @@ const ServiceAnimation = () => {
             <div className="service_title">
               <h3>Ui/Ux Consultancy</h3>
             </div>
-            <div className="learn_more">
+            {/* <div className="learn_more">
               Learn More<span></span>
-            </div>
+            </div> */}
           </div>
 
           {/* Start Modal Modal Ui/Ux Consultancy */}
-          <Modal
+          {/* <Modal
             isOpen={isOpen4}
             onRequestClose={toggleModalFour}
             contentLabel="My dialog"
@@ -373,10 +373,10 @@ const ServiceAnimation = () => {
             <div className="beny_tm_modalbox_service">
               <button className="close-modal" onClick={toggleModalFour}>
                 <img src="/img/svg/cancel.svg" alt="close icon" />
-              </button>
+              </button> */}
               {/* End close icon */}
 
-              <div className="box_inner">
+              {/* <div className="box_inner">
                 <div className="description_wrap scrollable">
                   <div className="popup_informations">
                     <div className="image">
@@ -445,11 +445,11 @@ const ServiceAnimation = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* End box inner */}
-            </div>
+            {/* </div> */}
             {/* End modal box news */}
-          </Modal>
+          {/* </Modal> */}
           {/* End Modal Ui/Ux Consultancy*/}
         </li>
       </ul>

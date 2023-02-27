@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Header from "../../components/header/Header";
 import Slider from "../../components/slider/SliderParallaxTyper";
 import About from "../../components/about/AboutParallaxTyper";
-import Service from "../../components/service/ServiceAnimation";
+// import Service from "../../components/service/ServiceAnimation";
 import Portfolio from "../../components/portfolio/CreativePortfolio";
 import Testimonial from "../../components/testimonial/Testimonial";
 import Blog from "../../components/blog/BlogAnimation";
@@ -38,12 +38,12 @@ const MainPage = () => {
       <div className="beny_tm_about" id="about">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>About Me</span>
-            <h2>About Me</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p>
+            <span>A propos</span>
+            <h2>A propos</h2>
+            {/* <p>
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
+              egestas. Id fermentum nullam ipsum massa. 
+            </p> */}
           </div>
           {/* End .beny_tm_title */}
           <About />
@@ -53,32 +53,28 @@ const MainPage = () => {
       {/* /ABOUT */}
 
       {/* SERVICES */}
-      <div className="beny_tm_services" id="service">
+      {/* <div className="beny_tm_services" id="service">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Services</span>
-            <h2>I provide wide range of digital services</h2>
-            <p>
+            <span>Prestations</span>
+            <h2>Je propose une large gamme de prestations</h2> */}
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
-            </p>
-          </div>
+            </p> */}
+          {/* </div> */}
           {/* End beny_tm_title */}
-          <Service />
-        </div>
-      </div>
+          {/* <Service /> */}
+        {/* </div>
+      </div> */}
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}
       <div className="beny_tm_portfolio" id="portfolio">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Portfolio</span>
-            <h2>My Portfolio</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
-              egestas. Id fermentum nullam ipsum massa.
-            </p>
+            <span>Réseaux sociaux</span>
+            <h2>Réseaux sociaux</h2>
           </div>
           {/* End beny_tm_title */}
           <Portfolio />

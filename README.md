@@ -1,4 +1,4 @@
-# **_My Official Portfolio_**
+# **_Personal Website_**
 
 ## **_Table of contents_**
 * [Description of the project](#description-of-the-project)

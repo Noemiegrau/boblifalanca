@@ -40,7 +40,7 @@ const Header = () => {
                 items={[
                   "home",
                   "about",
-                  "service",
+                  // "service",
                   "portfolio",
                   "news",
                   "contact",
@@ -60,22 +60,22 @@ const Header = () => {
                     <span className="second">A propos</span>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#service">
                     <span className="first">Prestations</span>
                     <span className="second">Prestations</span>
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a href="#portfolio">
-                    <span className="first">Portfolio</span>
-                    <span className="second">Portfolio</span>
+                    <span className="first">Réseaux Sociaux</span>
+                    <span className="second">Réseaux Sociaux</span>
                   </a>
                 </li>
                 <li>
                   <a href="#news">
-                    <span className="first">Réseau Sociaux</span>
-                    <span className="second">Réseau Sociaux</span>
+                    <span className="first">Témoignages</span>
+                    <span className="second">Témoignages</span>
                   </a>
                 </li>
                 <li>
@@ -102,38 +102,39 @@ const Header = () => {
       <div className="mobile-menu-wrapper">
         <Scrollspy
           className="mobile_menu-icon"
-          items={["home", "about", "service", "portfolio", "news", "contact"]}
+          // items={["home", "about", "service", "portfolio", "news", "contact"]}
+          items={["home", "about", "portfolio", "news", "contact"]}
           currentClassName="current"
           offset={-65}
         >
           <li>
             <a href="#home">
               <FiHome />
-              <span>Home</span>
+              <span>Accueil</span>
             </a>
           </li>
           <li>
             <a href="#about">
               <FiUser />
-              <span>About</span>
+              <span>A Propos</span>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="#service">
               <FiSettings />
-              <span>Serivce</span>
+              <span>Prestations</span>
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#portfolio">
               <FiGrid />
-              <span>Portfolio</span>
+              <span>Réseaux Sociaux</span>
             </a>
           </li>
           <li>
             <a href="#news">
               <FiCast />
-              <span>News</span>
+              <span>Réseaux Sociaux</span>
             </a>
           </li>
           <li>
