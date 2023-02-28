@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/boblifalanca/static/css/main.4fc767d2.css",
-    "main.js": "/boblifalanca/static/js/main.1d2d55ee.js",
+    "main.js": "/boblifalanca/static/js/main.97d67147.js",
     "static/js/27.556025ab.chunk.js": "/boblifalanca/static/js/27.556025ab.chunk.js",
     "static/media/slick.svg": "/boblifalanca/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/boblifalanca/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -11,6 +11,6 @@
   },
   "entrypoints": [
     "static/css/main.4fc767d2.css",
-    "static/js/main.1d2d55ee.js"
+    "static/js/main.97d67147.js"
   ]
 }
