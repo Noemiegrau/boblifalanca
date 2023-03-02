@@ -21,6 +21,12 @@
      */
 
 /*!
+  * $script.js JS loader & dependency manager
+  * https://github.com/ded/script.js
+  * (c) Dustin Diaz 2014 | License MIT
+  */
+
+/*!
   * PhotoSwipe 5.3.4 - https://photoswipe.com
   * (c) 2022 Dmytro Semenov
   */
@@ -117,6 +123,11 @@
  *
  * @license MIT
  */
+
+/**
+* @link https://github.com/gajus/sister for the canonical source repository
+* @license https://github.com/gajus/sister/blob/master/LICENSE BSD 3-Clause
+*/
 
 /** @license React v16.9.0
      * react-is.development.js
