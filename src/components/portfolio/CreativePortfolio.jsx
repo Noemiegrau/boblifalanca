@@ -3,6 +3,8 @@ import ModalVideo from "react-modal-video";
 import { Gallery, Item } from "react-photoswipe-gallery";
 import "photoswipe/dist/photoswipe.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import { TikTokEmbed } from 'react-social-media-embed';
+
 
 const CreativePortfolio = () => {
   const [isOpen, setOpen] = useState(false);
@@ -12,28 +14,52 @@ const CreativePortfolio = () => {
       <Tabs>
         <TabList className="creative-portfolio-list">
           <Tab>All</Tab>
-          <Tab>Vimeo</Tab>
-          <Tab>Youtube</Tab>
-          <Tab>Dribbble</Tab>
+          <Tab>Vimeo</Tab> //TikTok
+          <Tab>Youtube</Tab> //YouTube
+          <Tab>Dribbble</Tab> //Facebook
         </TabList>
         <TabPanel>
           <ul className="gallery_zoom">
-            <ModalVideo
+
+          
+          <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', alignContent: 'space-around' }} data-aos="fade-right" data-aos-duration="1200">
+            
+            {/* <div style={{ display: 'flex', justifyContent: 'center' }}> */}
+
+              <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" height={724} width={325} /></div>
+              {/* <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>  */}
+              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7193765137218620677" height={724} width={325} /></div> 
+              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7200824944513551622" height={724} width={325} /></div> 
+              {/* <div> <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7186210067883035910" width={325} /></div> */}
+
+            {/* <div style={{ display: 'flex', justifyContent: 'center' }}> */}
+            
+              {/* <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /> */}
+              <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7195204596195724550" height={724} width={325} /></div>
+              <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7197467722177875206" height={724} width={325} /></div>
+              {/* <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" width={325} /></div> */}
+              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>
+
+          </div>
+
+
+
+            {/* <ModalVideo
               channel="youtube"
               autoplay
               isOpen={isOpen}
               videoId="1gyTUHP6ne8"
               onClose={() => setOpen(false)}
-            />
-            {/* End Youtube Modal video */}
+            />*/}
+            {/*End Youtube Modal video */}
 
-            <ModalVideo
+            {/* <ModalVideo
               channel="vimeo"
               autoplay
               isOpen={isOpen2}
               videoId="100171151"
               onClose={() => setOpen2(false)}
-            />
+            /> */}
             {/* End Youtube Modal video */}
 
             <li data-aos="fade-right" data-aos-duration="1200">
