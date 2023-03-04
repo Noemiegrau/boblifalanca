@@ -27,11 +27,6 @@
   */
 
 /*!
-  * PhotoSwipe 5.3.4 - https://photoswipe.com
-  * (c) 2022 Dmytro Semenov
-  */
-
-/*!
   Copyright (c) 2015 Jed Watson.
   Based on code that is Copyright 2013-2015, Facebook, Inc.
   All rights reserved.
