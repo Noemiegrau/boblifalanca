@@ -1,5 +1,5 @@
 import React from "react";
-import Skills from "../skills/SkillsAnimation";
+// import Skills from "../skills/SkillsAnimation";
 
 const AboutParallax = () => {
   return (
