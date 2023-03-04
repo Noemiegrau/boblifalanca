@@ -13,7 +13,7 @@ const AboutParallax = () => {
             data-aos-duration="1200"
             style={{
               backgroundImage: `url(${
-                process.env.PUBLIC_URL + "/img/about/Subject.png"
+                process.env.PUBLIC_URL + "/img/about/avatar2.png"
               })`,
             }}
           ></div>
