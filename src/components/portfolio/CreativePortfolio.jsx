@@ -38,8 +38,6 @@ const CreativePortfolio = () => {
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>
               <div> <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7186210067883035910" width={325} /></div> 
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>
-              {/* <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" width={325} /></div>  */}
-
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', alignContent: 'space-around' }} data-aos="fade-right" data-aos-duration="1200">
@@ -81,7 +79,6 @@ const CreativePortfolio = () => {
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>
               <div> <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7186210067883035910" width={325} /></div> 
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>
-              <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" width={325} /></div> 
             </div>
         </TabPanel>
 
