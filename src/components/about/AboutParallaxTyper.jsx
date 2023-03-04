@@ -31,7 +31,7 @@ const AboutParallax = () => {
               &amp; <span className="theme-color">vidéographe</span> basé à <span className="theme-color">Paris</span>.
             </h5>
             {/* <p>
-              I design and develop services for customers specializing creating
+              I design and develop services for customers specializing creating  
               stylish, modern websites, web services and online stores. My
               passion is to design digital user experiences through meaningful
               interactions. Check out my Portfolio
