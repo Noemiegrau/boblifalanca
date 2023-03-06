@@ -6,8 +6,8 @@ import About from "../../components/about/AboutParallaxTyper";
 // import Service from "../../components/service/ServiceAnimation";
 import Portfolio from "../../components/portfolio/CreativePortfolio";
 import Testimonial from "../../components/testimonial/Testimonial";
-import Blog from "../../components/blog/BlogAnimation";
-import Contact from "../../components/Contact";
+// import Blog from "../../components/blog/BlogAnimation";
+// import Contact from "../../components/Contact";
 import Footer from "../../components/footer/Footer";
 import Address from "../../components/Address";
 
@@ -35,11 +35,11 @@ const MainPage = () => {
       <Slider />
       {/* End Slider */}
 
-      <div className="beny_tm_about" id="about">
+      <div className="beny_tm_about" id="àpropos">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>A propos</span>
-            <h2>A propos</h2>
+            <span>À propos</span>
+            <h2>À propos</h2>
             {/* <p>
                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa. 
@@ -70,7 +70,7 @@ const MainPage = () => {
       {/* /SERVICES */}
 
       {/* PORTFOLIO */}
-      <div className="beny_tm_portfolio" id="portfolio">
+      <div className="beny_tm_portfolio" id="réseauxsociaux">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Réseaux sociaux</span>
@@ -83,15 +83,15 @@ const MainPage = () => {
       {/* /PORTFOLIO */}
 
       {/* TESTIMONIALS */}
-      <div className="beny_tm_testimonials">
+      <div className="beny_tm_testimonials" id="témoignages">
         <div className="container">
           <div className="beny_tm_title_holder">
-            <span>Testimonials</span>
-            <h2>What's Clients Say.</h2>
-            <p>
+            <span>Témoignages et avis clients</span>
+            <h2>Ce que mes clients disent de moi</h2>
+            {/* <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
-            </p>
+            </p> */}
           </div>
           {/* End beny_tm_title */}
           <div
@@ -107,7 +107,7 @@ const MainPage = () => {
       {/* /TESTIMONIALS */}
 
       {/* NEWS */}
-      <div className="beny_tm_news" id="news">
+      {/* <div className="beny_tm_news" id="news">
         <div className="container">
           <div className="beny_tm_title_holder">
             <span>Blogs</span>
@@ -116,11 +116,11 @@ const MainPage = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet,
               egestas. Id fermentum nullam ipsum massa.
             </p>
-          </div>
+          </div> */}
           {/* End beny_tm_title */}
-          <Blog />
+          {/* <Blog />
         </div>
-      </div>
+      </div> */}
       {/* /NEWS */}
 
       {/*  CONTACT */}
@@ -134,7 +134,7 @@ const MainPage = () => {
             >
               <div className="beny_tm_title_holder">
                 <span>Contact</span>
-                <h2>Let's discuss your project</h2>
+                <h2>Contactez-moi pour vos futurs projets</h2>
               </div>
               <div className="short_list">
                 <Address />
@@ -150,14 +150,14 @@ const MainPage = () => {
             >
               <div className="title">
                 <p>
-                  I'm always open to discussing product
+                  Je suis toujours à l'écoute pour
                   <br />
-                  <span>design work or partnerships.</span>
+                  <span>projets et partenariats.</span>
                 </p>
               </div>
-              <div className="fields">
+              {/* <div className="fields">
                 <Contact />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

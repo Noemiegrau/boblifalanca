@@ -55,9 +55,9 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#about">
-                    <span className="first">A propos</span>
-                    <span className="second">A propos</span>
+                  <a href="#àpropos">
+                    <span className="first">À propos</span>
+                    <span className="second">À propos</span>
                   </a>
                 </li>
                 {/* <li>
@@ -67,13 +67,13 @@ const Header = () => {
                   </a>
                 </li> */}
                 <li>
-                  <a href="#portfolio">
+                  <a href="#réseauxsociaux">
                     <span className="first">Réseaux Sociaux</span>
                     <span className="second">Réseaux Sociaux</span>
                   </a>
                 </li>
                 <li>
-                  <a href="#news">
+                  <a href="#témoignages">
                     <span className="first">Témoignages</span>
                     <span className="second">Témoignages</span>
                   </a>
@@ -85,7 +85,7 @@ const Header = () => {
                   </a>
                 </li>
                 {/* <li>
-                  <a href="https://themeforest.net/checkout/from_item/33910000?license=regular">
+                  <a href="">
                     <span className="wrapper">
                       <span className="first">Buy Now</span>
                       <span className="second">Buy Now</span>
@@ -114,9 +114,9 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a href="#about">
+            <a href="#àpropos">
               <FiUser />
-              <span>A Propos</span>
+              <span>À Propos</span>
             </a>
           </li>
           {/* <li>
@@ -126,15 +126,15 @@ const Header = () => {
             </a>
           </li> */}
           <li>
-            <a href="#portfolio">
+            <a href="#réseauxsociaux">
               <FiGrid />
               <span>Réseaux Sociaux</span>
             </a>
           </li>
           <li>
-            <a href="#news">
+            <a href="#témoignages">
               <FiCast />
-              <span>Réseaux Sociaux</span>
+              <span>Témoignages</span>
             </a>
           </li>
           <li>

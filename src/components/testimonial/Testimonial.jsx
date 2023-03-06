@@ -26,21 +26,21 @@ export default function SimpleSlider() {
   const testimonialContent = [
     {
       img: "1",
-      desc: `Hi, I’m Alvara Atkins and I am designer &amp; developer who dream making the world better place by products. I am also very active for international clients.`,
-      name: "Alvara Atkins",
-      designation: "Marketing Manager",
+      desc: `Bob a toujours été là pour soutenir ma boutique. Je fais très souvent appel à lui depuis plusieurs années. Ses vidéos m'ont vraiment permit d'augmenter mes ventes!`,
+      name: "Boutique Firma Avantage",
+      designation: "Responsable de magasin",
     },
     {
       img: "2",
-      desc: `This is outstanding work. Everything I needed to do has been done by the makers. I really like this template and more importantly my clients are blown away by it.`,
-      name: "Fabian Gattuzo",
-      designation: "Photographer",
+      desc: `------`,
+      name: "Werrason",
+      designation: "Chanteur, auteur-compositeur, producteur",
     },
     {
       img: "3",
-      desc: `These people really know what they are doing! Great customer support availability and supperb kindness. I am very happy that I've purchased this liscense!!!`,
-      name: "Alizee Bonita",
-      designation: "App Developer",
+      desc: `Bob sait vraiment ce qu'il fait!`,
+      name: "Nixon Dixon",
+      designation: "Chanteur",
     },
   ];
 
@@ -55,7 +55,7 @@ export default function SimpleSlider() {
                 className="main"
                 style={{
                   backgroundImage: `url(${
-                    process.env.PUBLIC_URL + `img/testimonials/${val.img}.jpg`
+                    process.env.PUBLIC_URL + `img/testimonials/${val.img}.png`
                   })`,
                 }}
               ></div>

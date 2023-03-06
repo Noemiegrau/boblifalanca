@@ -6,15 +6,15 @@ const Footer = () => {
       <div className="inner">
         <div className="copy">
           <p>
-            &copy; {new Date().getFullYear()} by{" "}
+            Made by &nbsp;
             <a
-              href="https://themeforest.net/user/ib-themes"
+              href="https://noemiegrau.github.io/noemiegrau-portfolio/"
               target="_blank"
               rel="noreferrer"
             >
-              ib-themes
+              Noemie Grau&nbsp;
             </a>
-            . All rights reserved.
+            {new Date().getFullYear()}{""}&copy;.
           </p>
         </div>
       </div>

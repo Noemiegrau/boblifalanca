@@ -1,7 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
 import ReactTyped from "react-typed";
-import SocialTwo from "../SocialTwo";
+// import SocialTwo from "../SocialTwo";
 
 const image1 = "img/about/backgroundBlue.jpeg";
 
@@ -58,8 +58,7 @@ const SliderParallaxTyper = () => {
                     backSpeed={60}
                     strings={[
                       "Videographe",
-                      "Youtubeur",
-                      "TikTokeur",
+                      "Influenceur",
                       "Photographe"
                     ]}
                     smartBackspace
@@ -80,10 +79,9 @@ const SliderParallaxTyper = () => {
                   data-aos-delay="150"
                 >
                   
-                  Photographe et vidéographe parisien, je suis spécialisé dans l'événementiel, 
+                  Influenceur, photographe et vidéographe parisien, je suis spécialisé dans l'événementiel, 
                   ainsi que les publicités pour les marques. Je couvres vos événements, anniversaires, 
                   mariages et soirées pour immortaliser vos moments les plus chers. 
-                  Mon travail permet aux clients d'augmenter leurs ventes et de construire une meilleure marque avec un retour sur investissement positif.
                 </p>
 
                 <div

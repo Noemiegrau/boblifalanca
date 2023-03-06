@@ -30,6 +30,7 @@ const CreativePortfolio = () => {
             </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', alignContent: 'space-around' }} data-aos="fade-right" data-aos-duration="1200">
+          <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7206383474062658822" width={325} /></div>
           <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" height={724} width={325} /></div>
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7193765137218620677" height={724} width={325} /></div> 
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7200824944513551622" height={724} width={325} /></div> 
@@ -37,7 +38,7 @@ const CreativePortfolio = () => {
               <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7197467722177875206" height={724} width={325} /></div>
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>
               <div> <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7186210067883035910" width={325} /></div> 
-              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>
+              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>  
           </div>
 
           <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', alignContent: 'space-around' }} data-aos="fade-right" data-aos-duration="1200">
@@ -71,6 +72,7 @@ const CreativePortfolio = () => {
         {/* TIKTOK */}
         <TabPanel>
             <div style={{ display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', alignContent: 'space-around' }} data-aos="fade-right" data-aos-duration="1200">
+            <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7206383474062658822" width={325} /></div>
             <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7199346860711103749" height={724} width={325} /></div>
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7193765137218620677" height={724} width={325} /></div> 
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7200824944513551622" height={724} width={325} /></div> 
@@ -78,7 +80,7 @@ const CreativePortfolio = () => {
               <div ><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7197467722177875206" height={724} width={325} /></div>
               <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7198485256993819909" width={325} /></div>
               <div> <TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7186210067883035910" width={325} /></div> 
-              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>
+              <div><TikTokEmbed url="https://www.tiktok.com/@boblifalanca1/video/7185460275510791429" width={325} /></div>  
             </div>
         </TabPanel>
 
